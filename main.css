@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+.yes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background: #3494e6;
+  background: -webkit-linear-gradient(to right, #ec6ead, #3494e6);
+  background: linear-gradient(to right, #ec6ead, #3494e6);
+}
+
+.no {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  background: #3a6186;
+  background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+  background: linear-gradient(to right, #89253e, #3a6186);
+}
